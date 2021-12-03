@@ -1,3 +1,9 @@
+# Assignment Contributers
+
+# Assignment for Angular training
+Contributors: Abhilash Lenka, Nagendra R, Satheesh Rasineni
+
+
 # AssignmentOne
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
