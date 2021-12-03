@@ -1,0 +1,15 @@
+<!-- <p>Please Enter Some content to post!!!</p> -->
+
+<br/><br/>
+
+<!-- <div class="input-field">
+    <input [(ngModel)]='email' #emailFormControl="ngModel" name="emailCtrl" type="email" placeholder="Email" autocomplete="nope"
+    required>
+  </div> -->
+<div class="content">
+  <div class="input-field">
+    <input #postInput type="post" [value]="post" (input)="onPostEdit(postInput.value)" placeholder="Enter Post Content" autocomplete="nope">
+  </div>
+</div>
+<br/>
+<button (click)="onPost(postInput.value)">Submit Post</button>
